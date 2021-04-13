@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_section_addresses",
+  "info": {
+    "name": "address",
+    "icon": "search-location"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Dont hesitate to contact us."
+    },
+    "excerpt": {
+      "type": "text",
+      "default": "Boisterous he on understood attachment as entreaties ye devonshire. In mile an form snug were been sell. Hastened admitted joy nor absolute gay its. Extremely ham any his departure for contained curiosity defective."
+    },
+    "location": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.phone",
+      "max": 3
+    },
+    "email": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.email"
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.social"
+    }
+  }
+}

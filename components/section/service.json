@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_services",
+  "info": {
+    "name": "service",
+    "icon": "glass-martini"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "service"
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

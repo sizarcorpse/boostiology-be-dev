@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_section_intos",
+  "info": {
+    "name": "landing",
+    "icon": "home",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Boostiology Web"
+    },
+    "subtitle": {
+      "type": "string",
+      "private": false,
+      "required": true,
+      "default": "HI, WE ARE"
+    },
+    "excerpt": {
+      "type": "text",
+      "unique": true,
+      "default": "Eat imagine you chiefly few end ferrars compass. Be visitor females am ferrars inquiry. Latter law remark two lively thrown. Spot set they know rest its."
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "fallback": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonials",
+  "info": {
+    "name": "testimonial",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "author": {
+      "type": "string",
+      "default": "Mr. Author"
+    },
+    "position": {
+      "type": "string",
+      "default": "CEO"
+    },
+    "company": {
+      "type": "string",
+      "default": "prometheus"
+    },
+    "body": {
+      "type": "text"
+    },
+    "rating": {
+      "type": "float",
+      "default": 1
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

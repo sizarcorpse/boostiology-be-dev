@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_testimonials",
+  "info": {
+    "name": "testimonial",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "testimonials"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

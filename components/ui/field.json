@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_ui_fields",
+  "info": {
+    "name": "Field",
+    "icon": "copy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "idName": {
+      "type": "string"
+    },
+    "defaultValue": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "outlined"
+      ],
+      "default": "outlined"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "email",
+        "password",
+        "number"
+      ],
+      "default": "text"
+    },
+    "inputMehod": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "content"
+      ]
+    },
+    "isRequired": {
+      "type": "boolean",
+      "default": true
+    },
+    "isAutoComplete": {
+      "type": "boolean",
+      "default": false
+    },
+    "isAutoFocus": {
+      "type": "boolean",
+      "default": false
+    },
+    "placeholder": {
+      "type": "string",
+      "default": "Name of Field"
+    }
+  }
+}

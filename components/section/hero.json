@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_section_heroes",
+  "info": {
+    "name": "hero",
+    "icon": "chalkboard-teacher",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "welcome"
+    },
+    "excerpt": {
+      "type": "string",
+      "default": "For who thoroughly her boy estimating conviction. Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection favourable mrs can projecting own."
+    },
+    "explore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button",
+      "max": 2
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

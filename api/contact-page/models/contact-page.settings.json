@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "name": "Contact_Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.contact"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.address"
+    },
+    "form": {
+      "type": "dynamiczone",
+      "components": [
+        "ui.field"
+      ]
+    },
+    "submit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    }
+  }
+}

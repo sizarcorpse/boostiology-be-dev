@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prices",
+  "info": {
+    "name": "price",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "plan": {
+      "type": "string",
+      "default": "plan"
+    },
+    "price": {
+      "type": "float"
+    },
+    "rating": {
+      "type": "float"
+    },
+    "feature": {
+      "type": "text"
+    },
+    "subscribe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    }
+  }
+}

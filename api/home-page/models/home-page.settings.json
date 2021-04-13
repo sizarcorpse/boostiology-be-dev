@@ -1,0 +1,70 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home_Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "landing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.into"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.description"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.hero"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.about"
+    },
+    "team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.team"
+    },
+    "portfolio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.portfolio"
+    },
+    "client": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.client"
+    },
+    "service": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.service"
+    },
+    "timer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.timer"
+    },
+    "price": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.price"
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.testimonial"
+    }
+  }
+}

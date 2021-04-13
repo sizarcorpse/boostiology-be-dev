@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_link_socials",
+  "info": {
+    "name": "social",
+    "icon": "pastafarianism",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "provider": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "Twitter",
+        "Instagram",
+        "LinkedIn"
+      ]
+    },
+    "username": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "iron": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

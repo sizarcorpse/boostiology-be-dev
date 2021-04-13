@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_phones",
+  "info": {
+    "name": "phone",
+    "icon": "phone-volume"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_emails",
+  "info": {
+    "name": "email",
+    "icon": "bullseye"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    }
+  }
+}

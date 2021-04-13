@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_ui_buttons",
+  "info": {
+    "name": "button",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "button"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "link": {
+      "type": "string",
+      "default": "/home"
+    },
+    "url": {
+      "type": "string",
+      "default": "https://www.google.com"
+    }
+  }
+}

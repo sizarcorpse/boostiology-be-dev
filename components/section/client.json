@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_clients",
+  "info": {
+    "name": "client",
+    "icon": "child"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "default": "client"
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
