@@ -22,7 +22,7 @@
     "url": {
       "type": "string"
     },
-    "iron": {
+    "icon": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

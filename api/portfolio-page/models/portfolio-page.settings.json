@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolio_pages",
+  "info": {
+    "name": "Portfolio_Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "portfolio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.portfolio"
+    }
+  }
+}

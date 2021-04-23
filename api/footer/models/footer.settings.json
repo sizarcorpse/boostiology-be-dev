@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.address"
+    },
+    "payment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.paymnet-option"
+    },
+    "subscribe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.newsletter"
+    },
+    "connect": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.connect"
+    }
+  }
+}

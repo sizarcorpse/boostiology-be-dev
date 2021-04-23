@@ -2,7 +2,8 @@
   "collectionName": "components_section_abouts",
   "info": {
     "name": "about",
-    "icon": "cocktail"
+    "icon": "cocktail",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,15 @@
     "excerpt": {
       "type": "text",
       "default": "Marianne or husbands if at stronger ye. Considered is as middletons uncommonly. Promotion perfectly ye consisted so. His chatty dining for effect ladies active. Equally journey wishing not several behaved chapter she two sir."
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

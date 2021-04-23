@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_footer_payment_options",
+  "info": {
+    "name": "payment_method",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "default": "paypal"
+    },
+    "excerpt": {
+      "type": "text",
+      "default": "payment option"
+    }
+  }
+}

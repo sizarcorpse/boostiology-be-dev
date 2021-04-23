@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_footer_paymnet_options",
+  "info": {
+    "name": "payment",
+    "icon": "balance-scale-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "payment": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.payment-option"
+    },
+    "title": {
+      "type": "string",
+      "default": "payment options"
+    }
+  }
+}

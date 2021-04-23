@@ -15,7 +15,7 @@
       "type": "text",
       "default": "Marianne or husbands if at stronger ye. Considered is as middletons uncommonly. Promotion perfectly ye consisted so. His chatty dining for effect ladies active. Equally journey wishing not several behaved chapter she two sir."
     },
-    "icon": {
+    "cover": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

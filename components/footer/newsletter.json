@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_footer_newsletters",
+  "info": {
+    "name": "newsletter",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Subscribe Newsletter"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Subscribe for new offers and updates."
+    },
+    "subscribe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.field"
+    },
+    "submit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    }
+  }
+}

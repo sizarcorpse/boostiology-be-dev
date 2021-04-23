@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_addresses",
+  "info": {
+    "name": "address",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "text",
+      "default": "Boostiology Web 4435 Berkshire Circle Knoxville TN 27912"
+    },
+    "title": {
+      "type": "string",
+      "default": "Our Address"
+    }
+  }
+}

@@ -2,7 +2,8 @@
   "collectionName": "components_section_portfolios",
   "info": {
     "name": "portfolio",
-    "icon": "desktop"
+    "icon": "desktop",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,6 +20,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "excerpt": {
+      "type": "text",
+      "default": "Moments its musical age explain. But extremity sex now education concluded earnestly her continual. Oh furniture acuteness suspected continual ye something frankness. "
     }
   }
 }

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_footer_connects",
+  "info": {
+    "name": "connect",
+    "icon": "bacon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Connect with"
+    },
+    "excerpt": {
+      "type": "text",
+      "default": "To get updates follow us on Facebook, Twitters etc."
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.social"
+    }
+  }
+}

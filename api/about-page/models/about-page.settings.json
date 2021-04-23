@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "name": "About_Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.about"
+    },
+    "team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.team"
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.testimonial"
+    },
+    "payment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.paymnet-option"
+    }
+  }
+}

@@ -31,6 +31,15 @@
     "isFeatured": {
       "type": "boolean",
       "default": false
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Development",
+        "Design",
+        "DevOps",
+        "Could"
+      ]
     }
   }
 }
