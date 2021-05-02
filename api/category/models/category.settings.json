@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "category",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "untitled",
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "excerpt": {
+      "type": "text",
+      "default": "This is a blog post category."
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "cover_alt": {
+      "type": "string",
+      "default": "this is a cover image"
+    },
+    "blogs": {
+      "via": "categories",
+      "collection": "blog"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "other.meta"
+    }
+  }
+}

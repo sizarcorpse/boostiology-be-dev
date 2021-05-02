@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/comment-section",
+      "handler": "comment-section.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/comment-section",
+      "handler": "comment-section.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/comment-section",
+      "handler": "comment-section.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

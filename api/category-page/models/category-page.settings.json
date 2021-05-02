@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "category_pages",
+  "info": {
+    "name": "Category_Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "search": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.field"
+    },
+    "sidebarFeatured": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.sidebar"
+    },
+    "sidebarCategories": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.sidebar"
+    },
+    "readMore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    }
+  }
+}

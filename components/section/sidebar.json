@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_section_sidebars",
+  "info": {
+    "name": "sidebar",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "top stories"
+    }
+  }
+}

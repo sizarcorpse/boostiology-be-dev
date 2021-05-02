@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "comment_sections",
+  "info": {
+    "name": "Comment_Section",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "comment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.create-comment"
+    },
+    "form": {
+      "type": "dynamiczone",
+      "components": [
+        "ui.field"
+      ]
+    },
+    "submit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    }
+  }
+}

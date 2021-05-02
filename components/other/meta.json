@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_other_metas",
+  "info": {
+    "name": "meta",
+    "icon": "baby-carriage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "meta__title": {
+      "type": "string",
+      "default": "Title of the page | Title Page",
+      "required": true
+    },
+    "meta__description": {
+      "type": "text",
+      "default": "Meta descriptions can be any length, but Google generally truncates snippets to 155–160 characters. It's best to keep meta descriptions descriptive.",
+      "required": true
+    }
+  }
+}

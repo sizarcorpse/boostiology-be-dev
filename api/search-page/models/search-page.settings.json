@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "search_pages",
+  "info": {
+    "name": "Search_Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "search": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.search"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "other.meta"
+    },
+    "sidebarFeatured": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.sidebar"
+    },
+    "sidebarCategories": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.sidebar"
+    },
+    "readMore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    },
+    "search_": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.field"
+    },
+    "notFound": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.not-found"
+    }
+  }
+}

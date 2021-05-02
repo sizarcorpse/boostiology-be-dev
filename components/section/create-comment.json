@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_section_create_comments",
+  "info": {
+    "name": "Create_Comment",
+    "icon": "cut"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Leave a comment"
+    },
+    "excerpt": {
+      "type": "text",
+      "default": "Quick, Baz, get my woven flax jodhpurs! \"Now fax quiz Jack! \" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_section_posts",
+  "info": {
+    "name": "Posts",
+    "icon": "baseball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Blog"
+    },
+    "excerpt": {
+      "type": "text",
+      "default": "From the Everready LP, this is a song about those who question Tech N9ne’s credibility and talk shit about his unique style. This is his angry rebuttal. Produced by Seven."
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "cover_alt": {
+      "type": "string",
+      "default": "this is blog post"
+    }
+  }
+}
